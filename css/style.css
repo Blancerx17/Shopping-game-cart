@@ -1,0 +1,263 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #16191e !important;
+    color: #fff !important;
+}
+
+/* Loading screen */
+
+.content {
+    display: none;
+}
+
+.loader {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #16191e;
+    position: absolute;
+}
+.loader > div {
+    height: 100px;
+    width: 100px;
+    border: 15px solid #45474b;
+    border-top-color: #2a88e6;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Nav */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    z-index: 9;
+}
+
+.nav {
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(3, 115, 160);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto 0 0; 
+}
+.brand-logo > span {
+    color: #f04b0a; }
+
+
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+/* Nav search section */
+.search {
+    width: 500px;
+    display: flex;
+    position: relative;
+    left: 18rem;
+}
+
+.search-box {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.btn {
+    background-color: #0373a0 !important;
+    border-color: #0373a0 !important;
+}
+
+.btn:hover {
+    background-color: #04597a !important;
+    border-color: #04597a !important;
+    transition: 0.5s;
+}
+
+.search-btn {
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #0373a0;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-btn:hover {
+    background: #04597a;
+    transition: 0.5s;
+}
+
+.search-box::placeholder {
+    color: #a9a9a9; 
+}
+
+
+/* Nav links */
+
+.nav-items a {
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-items a img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.links-container {
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+}
+
+.link {
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #ffffff;
+    opacity: 0 5;
+    transition: .5s;
+}
+
+.link:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+/* Account */
+
+.account-info {
+    font-size:20px;
+    text-transform: capitalize;
+}
+
+#user-btn {
+    padding: 10px;
+    background: #383838;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#user-img {
+    position: relative;
+    left: 34rem;
+}
+
+/* Shopping cart & images */
+
+.table {
+    color: #fff !important;
+}
+
+.card {
+    height: 470px !important;
+    width: 260px;
+    margin: 5px !important;
+    border-color: #16191e !important;
+}
+
+.card-img-top {
+    height: 320px;
+    max-height: 320px;
+}
+
+.card-body {
+    background-color: #024c69;
+}
+
+.text-center {
+    padding-top: 10px;
+}
+
+#cart-icon {
+    font-size: 1.3rem;
+    position: relative;
+    top: 3.5px;
+}
+
+.bx-trash, .bx-cart {
+    font-size: 1.3rem;
+    position: relative;
+    top: 3.5px;
+}
+
+#vaciar-carrito, #buttonDelete {
+    background-color: #ca4009 !important;
+    border-color: #ca4009 !important;
+}
+
+#vaciar-carrito:hover, #buttonDelete:hover {
+    background-color: #a53407 !important;
+    border-color: #a53407 !important;
+}
+
+.card-title, .card-text {
+    color: #fff;
+}
+
+/* Sweet alert */
+
+.swal-button {
+    background-color: #0373a0;
+    width: 100px;
+}
+
+.swal-icon--success__ring {
+    border-color: #6ccd35 !important;
+}
+
+.swal-icon--success__line {
+    background-color: #6ccd35 !important;
+}
+
+.swal-button:hover {
+    background-color: #04597a !important;
+    transition: 0.5s;
+}

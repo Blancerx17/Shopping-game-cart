@@ -1,0 +1,56 @@
+[
+    {
+        "precio": 42,
+        "id": 1,
+        "title": "AC Valhalla",
+        "thumbnailUrl": "https://cdn1.epicgames.com/400347196e674de89c23cc2a7f2121db/offer/AC%20KINGDOM%20PREORDER_STANDARD%20EDITION_EPIC_Key_Art_Portrait_640x854-640x854-288120c5573756cb988b6c1968cebd86.png"
+    },
+    {
+        "precio": 50,
+        "id": 2,
+        "title": "Cyberpunk 2077",
+        "thumbnailUrl": "https://as01.epimg.net/meristation/imagenes/2022/01/31/noticias/1643614861_323798_1643614972_sumario_normal.jpg"
+    },
+    {
+        "precio": 20,
+        "id": 3,
+        "title": "Minecraft",
+        "thumbnailUrl": "https://xombitgames.com/files/2012/12/minecraft.jpg"
+    },
+    {
+        "precio": 30,
+        "id": 4,
+        "title": "Battlefield 2042",
+        "thumbnailUrl": "https://cdn1.epicgames.com/offer/52f57f57120c440fad9bfa0e6c279317/EGS_Battlefield2042_DICE_S2_1200x1600-331f59b6877d2bf2194943fcf7a68048_1200x1600-331f59b6877d2bf2194943fcf7a68048"
+    },
+    {
+        "precio": 60,
+        "id": 5,
+        "title": "Borderlands 3",
+        "thumbnailUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/p50N4PBK9rNanGYKFecTvac5.png"
+    },
+    {
+        "precio": 35,
+        "id": 6,
+        "title": "Borderlands 2",
+        "thumbnailUrl": "https://cdn1.epicgames.com/f4a7772a4da24870a3ea6dfb8aeac662/offer/EGS_Borderlands2_GearboxSoftware_S2-860x1148-5fac54ddb8789d5c4bf354100058ca67.jpg"
+    },
+    {
+        "precio": 22,
+        "id": 7,
+        "title": "Borderlands GOTY",
+        "thumbnailUrl": "https://s3.gaming-cdn.com/images/products/1097/orig/game-steam-borderlands-goty-edition-cover.jpg"
+    },
+    {
+        "precio": 25,
+        "id": 8,
+        "title": "Dark souls 3",
+        "thumbnailUrl": "https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png?w=440"
+    },
+    {
+        "precio": 60,
+        "id": 8,
+        "title": "Elden Ring",
+        "thumbnailUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png"
+    }
+]
